@@ -51,6 +51,7 @@
     line-height: 1.4;
 }
 
+
 body.dark #editor,
 body.dark #file-tree,
 body.dark #toolbar {
@@ -125,4 +126,25 @@ body.dark #editor .CodeMirror-lines {
   letter-spacing: 0.04em;
   text-align: justify;
   font-family: 'Noto Sans SC','Source Han Sans','PingFang SC','Microsoft Yahei', sans-serif;
+}
+
+.cm-formatting-header,
+.cm-formatting-quote,
+.cm-formatting-strong,
+.cm-formatting-em {
+  display: none;
+}
+
+.size-header-1:hover .cm-formatting-header,
+.size-header-2:hover .cm-formatting-header,
+.size-header-3:hover .cm-formatting-header,
+.size-header-4:hover .cm-formatting-header,
+.size-header-5:hover .cm-formatting-header {
+  display: inline;
+}
+
+pre.CodeMirror-line:hover .cm-formatting-quote,
+pre.CodeMirror-line:hover .cm-formatting-strong,
+pre.CodeMirror-line:hover .cm-formatting-em {
+  display: inline;
 }
