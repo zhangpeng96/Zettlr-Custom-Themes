@@ -1,0 +1,128 @@
+/* Main */
+#application-menu .menu-item {  
+  height: 28px;
+  line-height: 28px !important;
+  padding: 0 3px !important;
+  grid-template-columns: 2em auto 60px !important;
+}
+
+#application-menu, #menubar {
+    font-size: 13px !important;
+}
+
+#document-tabs .document .close {
+  right: 4px;
+  width: 15px;
+  height: 100%;
+}
+
+#document-tabs .document {
+    font-size: 13px;
+    min-width: 175px;
+    line-height: 25px;
+}
+
+#document-tabs .document.active {
+    border-left: 5px solid var(--c-primary);
+}
+
+#document-tabs {
+    border-bottom: 1px solid #999;
+    font-style: normal;
+    color: var(--grey-1);
+}
+
+#toolbar .button clr-icon {
+    width: 18px;
+    height: 18px;
+}
+
+#file-list {
+    font-size: 13px;
+}
+
+#sidebar {  
+  font-family: 'Noto Sans SC','Source Han Sans','PingFang SC','Segoe UI','Microsoft Yahei',sans-serif;
+}
+
+.tippy-box {
+    background-color: #333;
+    font-size: 13px;
+    line-height: 1.4;
+}
+
+body.dark #editor,
+body.dark #file-tree,
+body.dark #toolbar {
+  background-color: #282a36;
+  color: #f8f8f2;
+}
+
+body.dark #file-manager #file-manager-resize {
+  background-color: #44475a;
+}
+
+body.dark #editor .CodeMirror,
+body.dark .quicklook .body .CodeMirror,
+body.dark .dialog .CodeMirror {
+  color: #f8f8f2 !important;
+}
+
+
+/* Headers */
+body.dark .size-header-1,
+body.dark .size-header-2,
+body.dark .size-header-3,
+body.dark .size-header-4,
+body.dark .size-header-5,
+body.dark .size-header-6,
+body.dark .cm-formatting-header {
+  color: #BD93F9 !important;
+}
+
+/* Italic */
+body.dark #editor .cm-em {
+  color: #F1FA8C !important;
+}
+
+/* Bold */
+body.dark #editor .cm-strong {
+  color: #FFB86C !important;
+}
+
+/* Lists */
+body.dark #editor .cm-formatting-list-ul,
+body.dark #editor .cm-formatting-list-ol {
+    color: #8BE9FD !important;
+}
+
+/* Inline Code */
+body.dark #editor .cm-comment {
+  color: #50FA7B !important;
+}
+
+/* Links */
+body.dark #editor .cm-url {
+  color: #8be9fd !important;
+}
+body.dark #editor .cm-link,
+body.dark #editor .cma,
+body.dark #editor .cm-zkn-link {
+  color: #ff79c6 !important;
+}
+
+/* Blockquotes */
+body.dark #editor .cm-formatting-quote,
+body.dark #editor .cm-quote {
+  color: #f1fa8c !important;
+}
+
+body.dark #editor .katex {
+  font-size: 1.1em;
+}
+
+body.dark #editor .CodeMirror-lines {
+  letter-spacing: 0.04em;
+  text-align: justify;
+  font-family: 'Noto Sans SC','Source Han Sans','PingFang SC','Microsoft Yahei', sans-serif;
+}
