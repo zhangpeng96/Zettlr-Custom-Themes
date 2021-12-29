@@ -1,0 +1,118 @@
+body.win32 input, body.win32 select, body.win32 textarea, body.win32 button {
+    background-color: white;
+    border: 1px solid #5a5a5a;
+    border-radius: 5px;
+    min-width: 50px;
+    padding: 3px 5px;
+}
+
+body .popover hr {
+    margin: 10px 10px;
+    border: none;
+    border-bottom: 0px solid #b4b4b4;
+}
+
+body .cb-group {
+    display: grid;
+    grid-template-columns: 20px auto;
+    grid-template-rows: 100%;
+    grid-template-areas: "input label";
+}
+
+body.win32 label.radio {
+    width: 15px;
+    height: 15px;
+    margin-right: 5px;
+}
+
+body.win32 label.radio .toggle {
+    position: absolute;
+    cursor: pointer;
+    width: 15px;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: white;
+    border-radius: 20px;
+    border: 2px solid #5a5a5a;
+}
+
+body.win32 label.radio .toggle:before {
+    position: absolute;
+    content: "";
+    height: 7px;
+    width: 7px;
+    left: 2px;
+    top: 2px;
+    background-color: transparent;
+    border-radius: 20px;
+    transition: 0.4s;
+}
+
+
+body div.application-menu {
+    background-color: #ffffff;
+    border: 1px solid #b4b4b4;
+    position: fixed;
+    overflow-y: auto;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, RobotoNum, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 13px;
+    box-shadow: 3px 3px 10px 0px rgb(0 0 0 / 30%);
+    min-width: 120px;
+}
+
+body div.application-menu div.menu-item {
+    height: 20px;
+    line-height: 20px;
+    overflow: hidden;
+    margin: 5px;
+    padding: 0 5px;
+    display: grid;
+    grid-template-columns: 12px auto 60px;
+    grid-template-rows: 100%;
+    grid-template-areas: "status label after";
+}
+
+
+body #sidebar {
+    background-color: #fafafa;
+    height: 100%;
+    width: 100%;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+body #editor .CodeMirror .heading-tag {
+    color: var(--grey-1);
+    transition: 0.2s all ease;
+    text-transform: capitalize;
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+    height: 1px;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+     -webkit-box-shadow: inset 0 0 5px rgba(0,0,0,0.2);
+    background: #ababab;
+}
+
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 5px rgba(0,0,0,0.2);
+    border-radius: 10px;
+    background: #ededed;
+}
+
+
+/*设置*/
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, RobotoNum, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+body.win32 div#window-content {
+    padding: 10px;
+    font-size: 13px;
+}
