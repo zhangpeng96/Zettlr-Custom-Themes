@@ -1,6 +1,7 @@
 # Zettlr Custom Themes
 Markdown 笔记编辑器 Zettlr 自定义主题配置
 
+**转用 Obsidian 了， 本仓库不再更新**
 
 
 ### 自定义样式
